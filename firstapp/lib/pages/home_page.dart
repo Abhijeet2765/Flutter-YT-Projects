@@ -8,10 +8,11 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("FirstApp"),
+        //backgroundColor: Colors.deepOrangeAccent,
       ),
       body: Center(
         child: Container(
-          child: Text("Welcome to 31 days flutter"),
+          child: Text("Welcome to 32 days flutter"),
         ),
       ),
       drawer: Drawer(),
